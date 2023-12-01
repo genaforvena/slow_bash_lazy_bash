@@ -1,0 +1,65 @@
+# Ignore system-specific files
+*.DS_Store
+*.swp
+*~
+\#*\#
+
+# Ignore user-specific files
+/.bash_history
+/.bashrc
+
+# Ignore project-specific files
+/.env
+/.env.example
+/.env.local
+
+# Ignore dependencies
+/node_modules
+/bower_components
+
+# Ignore build output
+/dist
+/out
+/.next
+
+# Ignore logs
+/log
+/logs
+
+# Ignore miscellaneous
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore editors
+.idea
+.vscode
+*.sublime-project
+*.sublime-workspace
+
+# Ignore OS generated folders
+.DS_Store
+Thumbs.db
+
+# Ignore database
+*.sqlite3
+
+# Ignore compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Ignore archives and packages
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
